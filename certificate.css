@@ -1,0 +1,70 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.certificate-container {
+    background-color: white;
+    width: 70%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.certificate-border {
+    border: 5px solid teal;
+    padding: 20px;
+    position: relative;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    height: 50px; /* Adjust as necessary */
+}
+
+.certificate-header h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+}
+
+.certificate-body {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.intro-text, .description-text, .date-issued, .issuer-signature, .issuer-title {
+    color: #555;
+}
+
+.recipient-name {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.skill-name {
+    font-size: 1.25em;
+    margin: 5px 0;
+    color: #333;
+}
+
+.certificate-footer {
+    margin-top: 30px;
+}
+
+.date-issued, .issuer-signature, .issuer-title {
+    font-size: 0.85em;
+    margin: 5px 0;
+}
+
+.certificate-id {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 0.7em;
+    color: #333;
+}
